@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">ChadMode</string>
+    <string name="tagline">Discipline Over Dopamine</string>
+
+    <!-- Ticker Labels -->
+    <string name="label_days">DAYS</string>
+    <string name="label_hours">HOURS</string>
+    <string name="label_minutes">MINS</string>
+    <string name="label_seconds">SECS</string>
+    <string name="label_active_streak">ACTIVE STREAK</string>
+    <string name="label_current_rank">CURRENT RANK</string>
+    <string name="label_next_milestone">Next milestone:</string>
+    <string name="label_progress_completed">%1$d%% completed</string>
+    <string name="label_started_on">Started %1$s</string>
+    <string name="label_best_streak">Best Streak: %1$s</string>
+    <string name="label_resets_count">Total Resets: %1$d</string>
+
+    <!-- Actions -->
+    <string name="btn_panic_shield">🚨 PANIC SHIELD</string>
+    <string name="btn_reset_streak">Reset Streak</string>
+    <string name="btn_confirm_reset">I Slipped (Reset)</string>
+    <string name="btn_cancel">Stay Strong (Cancel)</string>
+
+    <!-- Confirmation Dialog -->
+    <string name="dialog_reset_title">Reset Your Streak?</string>
+    <string name="dialog_reset_message">Relapsing happens, but honesty is the cornerstone of recovery. Are you sure you want to reset your timer?</string>
+    <string name="dialog_panic_title">Shield Activated</string>
+    <string name="dialog_panic_message">Take a deep breath. Urges are just neural impulses that fade within 15 minutes. Emergency tools are coming in Phase 2!</string>
+    <string name="btn_dismiss">Got It</string>
+
+    <!-- Ranks -->
+    <string name="rank_day_0_title">Dopamine Reset</string>
+    <string name="rank_day_0_desc">Neural reset initiated. The brain is adapting.</string>
+
+    <string name="rank_day_3_title">Awakening</string>
+    <string name="rank_day_3_desc">Physical withdrawal fading. Mental clarity emerging.</string>
+
+    <string name="rank_day_7_title">The Spark</string>
+    <string name="rank_day_7_desc">Energy surge and self-respect returning.</string>
+
+    <string name="rank_day_14_title">Iron Discipline</string>
+    <string name="rank_day_14_desc">Brain fog lifting. Focus and presence sharpening.</string>
+
+    <string name="rank_day_30_title">Sigma Grindset</string>
+    <string name="rank_day_30_desc">Dopamine baseline stabilized. Habitual control.</string>
+
+    <string name="rank_day_60_title">Titan</string>
+    <string name="rank_day_60_desc">High emotional resilience. Neural pathways rewired.</string>
+
+    <string name="rank_day_90_title">Ascended GigaChad</string>
+    <string name="rank_day_90_desc">Unshakable self-mastery. Complete neurological transformation.</string>
 </resources>

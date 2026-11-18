@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Dark Theme Backgrounds & Surfaces -->
+    <color name="bg_dark">#121316</color>
+    <color name="surface_dark">#1A1C23</color>
+    <color name="surface_card">#222530</color>
+    <color name="surface_card_stroke">#303444</color>
+    <color name="surface_card_highlight">#2D3242</color>
+
+    <!-- Accent & Brand Colors -->
+    <color name="gold_primary">#F59E0B</color>
+    <color name="gold_accent">#FBBF24</color>
+    <color name="amber_glow">#FFB300</color>
+    <color name="flame_orange">#F97316</color>
+    <color name="emerald_active">#10B981</color>
+    <color name="emerald_glow">#34D399</color>
+
+    <!-- Danger & Reset -->
+    <color name="crimson_red">#EF4444</color>
+    <color name="crimson_dark">#991B1B</color>
+    <color name="crimson_glow">#F87171</color>
+
+    <!-- Typography Colors -->
+    <color name="text_primary">#F9FAFB</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="text_muted">#6B7280</color>
+
+    <!-- Ticker Accent Colors -->
+    <color name="ticker_box_bg">#171920</color>
+    <color name="ticker_box_stroke">#282C3A</color>
+    <color name="progress_track">#282C3A</color>
 </resources>

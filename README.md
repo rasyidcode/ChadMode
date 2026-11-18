@@ -65,7 +65,7 @@ com.rasyidcode.chadmode/
 ### Building via Terminal
 ```bash
 # Clone or navigate to the directory
-cd /mnt/EYOTA/AndroidStudioProjects/ChadMode
+git clone git@github.com:rasyidcode/ChadMode.git && cd ~/ChadMode
 
 # Build debug APK
 ./gradlew assembleDebug

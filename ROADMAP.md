@@ -7,18 +7,18 @@ This roadmap outlines the phased development of **ChadMode**, from initial MVP t
 ## 📍 Phase 1: Foundation & The Streak Engine (MVP)
 > **Goal:** Create a rock-solid, battery-efficient streak counter with real-time ticker and reset mechanism.
 
-- [ ] **1.1 Project Setup & Theme Configuration**
+- [x] **1.1 Project Setup & Theme Configuration**
   - Enable `viewBinding` in `app/build.gradle.kts`.
   - Configure Material Design 3 Dark/Night Theme (`Theme.Material3.DayNight.NoActionBar`).
   - Set up `AppExecutors` utility for thread management.
-- [ ] **1.2 Data Persistence (Streak State)**
+- [x] **1.2 Data Persistence (Streak State)**
   - Implement `PreferenceManager` to store `streakStartTimeMillis` and `longestStreakMillis`.
   - Provide helper methods: `getStreakStartTime()`, `setStreakStartTime()`, `resetStreak()`.
-- [ ] **1.3 Real-Time Ticker Engine**
+- [x] **1.3 Real-Time Ticker Engine**
   - Implement `TimeFormatter` utility to convert milliseconds elapsed into:
     - Days, Hours, Minutes, Seconds.
   - Implement dynamic UI update loop using `Handler` + `postDelayed(1000)` running only while Activity is in `RESUMED` state.
-- [ ] **1.4 Main Dashboard UI**
+- [x] **1.4 Main Dashboard UI**
   - Circular progress indicator reflecting daily cycle or current milestone goal.
   - Prominent Days counter, followed by Hours : Minutes : Seconds.
   - Current Rank Title badge (starts at *Day 0: Dopamine Reset*).
