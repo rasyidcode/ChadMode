@@ -20,6 +20,7 @@
     <string name="btn_reset_streak">Reset Streak</string>
     <string name="btn_confirm_reset">I Slipped (Reset)</string>
     <string name="btn_cancel">Stay Strong (Cancel)</string>
+    <string name="btn_analytics">📊 ANALYTICS &amp; HISTORY</string>
 
     <!-- Confirmation Dialog -->
     <string name="dialog_reset_title">Reset Your Streak?</string>
@@ -84,4 +85,40 @@
     <string name="btn_reset">Reset</string>
     <string name="congrats_urge_conquered_title">Victory Recorded! 🗿</string>
     <string name="congrats_urge_conquered_message">You rode the wave without breaking. Every urge you defeat rewires your dopamine receptors towards absolute self-mastery.</string>
+
+    <!-- Phase 3: Relapse Journaling & Trigger Analytics -->
+    <string name="title_relapse_reflection">Honest Reflection</string>
+    <string name="subtitle_relapse_reflection">Relapses are data, not failures. Analyze the trigger to prevent future traps.</string>
+    <string name="label_streak_ended">Streak Ending:</string>
+    <string name="header_select_trigger">PRIMARY TRIGGER (Choose one):</string>
+    <string name="header_select_location">LOCATION / CONTEXT (Choose one):</string>
+    <string name="header_brains_lie">WHAT LIE DID YOUR BRAIN TELL YOU?</string>
+    <string name="hint_brains_lie">"e.g., Just one peek won\'t hurt, I had a hard day"</string>
+    <string name="btn_log_and_reset">Save Reflection &amp; Reset Timer</string>
+
+    <!-- Triggers -->
+    <string name="trigger_stress">⚡ Stress &amp; Anxiety</string>
+    <string name="trigger_boredom">🥱 Boredom &amp; Idleness</string>
+    <string name="trigger_late_night">🌙 Late Night Exhaustion</string>
+    <string name="trigger_peeking">📱 Social Media / Peeking</string>
+    <string name="trigger_loneliness">👤 Loneliness &amp; Isolation</string>
+    <string name="trigger_fatigue">🔋 Physical Burnout</string>
+
+    <!-- Locations -->
+    <string name="location_bedroom">🛏️ Bedroom (Bed with Phone)</string>
+    <string name="location_bathroom">🚿 Bathroom</string>
+    <string name="location_desk">🖥️ Alone at Desk / PC</string>
+    <string name="location_couch">🛋️ Couch / Living Room</string>
+    <string name="location_other">📍 Other Location</string>
+
+    <!-- Analytics Dashboard -->
+    <string name="title_analytics">Analytics &amp; Danger Zones</string>
+    <string name="subtitle_analytics">Study your psychological vulnerabilities to build impenetrable defenses.</string>
+    <string name="header_danger_zone">⚠️ DANGER ZONE HEATMAP</string>
+    <string name="label_most_vulnerable_time">Peak Danger Hours:</string>
+    <string name="label_top_trigger">#1 Relapse Trigger:</string>
+    <string name="label_top_location">#1 Vulnerable Location:</string>
+    <string name="header_history">STREAK &amp; RELAPSE LOGS</string>
+    <string name="empty_analytics_title">Clean Slate 🗿</string>
+    <string name="empty_analytics_desc">No relapses recorded yet. Keep your discipline unbreakable.</string>
 </resources>

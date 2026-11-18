@@ -46,17 +46,17 @@ This roadmap outlines the phased development of **ChadMode**, from initial MVP t
 ## 📊 Phase 3: Relapse Journaling & Trigger Analytics
 > **Goal:** Shift from guilt/shame to scientific self-reflection by logging and studying relapses.
 
-- [ ] **3.1 Room Database Setup**
+- [x] **3.1 Room Database Setup**
   - Add Room dependencies to `build.gradle.kts`.
   - Create `RelapseEntity`:
     - `id`, `timestamp`, `streakDurationMillis`, `triggerCategory`, `moodRating`, `journalNote`.
   - Create `RelapseDao` with queries: `getAllRelapses()`, `getLongestStreak()`, `getRelapsesByTrigger()`.
-- [ ] **3.2 Post-Relapse Questionnaire Flow**
+- [x] **3.2 Post-Relapse Questionnaire Flow**
   - When resetting the streak, replace the generic prompt with a quick reflection form:
     - **Trigger Multi-choice:** Stress, Boredom, Late Night, Social Media/Peeking, Loneliness, Fatigue.
     - **Location/Context:** Bedroom, Bathroom, Alone at PC, Bed with Phone.
     - **Optional Note:** What lie did your brain tell you right before?
-- [ ] **3.3 Analytics & Heatmap Dashboard**
+- [x] **3.3 Analytics & Heatmap Dashboard**
   - Danger zone chart: Days of the week & hours of the day where relapses most frequently occur.
   - Streak history list showing dates, durations, and top triggers.
 

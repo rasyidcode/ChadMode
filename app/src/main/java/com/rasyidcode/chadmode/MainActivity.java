@@ -14,10 +14,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.rasyidcode.chadmode.databinding.ActivityMainBinding;
+import com.rasyidcode.chadmode.ui.analytics.AnalyticsActivity;
 import com.rasyidcode.chadmode.ui.emergency.PanicActivity;
 import com.rasyidcode.chadmode.ui.main.MainViewModel;
 import com.rasyidcode.chadmode.ui.main.RankInfo;
 import com.rasyidcode.chadmode.ui.main.StreakUiState;
+import com.rasyidcode.chadmode.ui.relapse.RelapseActivity;
 import com.rasyidcode.chadmode.util.TimeFormatter;
 
 import java.util.Locale;
@@ -107,8 +109,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupClickListeners() {
-        // Reset streak confirmation dialog
-        binding.btnResetStreak.setOnClickListener(v -> showResetConfirmationDialog());
+        // Post-Relapse reflection and timer reset
+        binding.btnResetStreak.setOnClickListener(v -> openRelapseReflection());
+
+        // Analytics and Danger Zone heatmap
+        binding.btnAnalytics.setOnClickListener(v -> openAnalytics());
 
         // Emergency Panic Shield actions
         binding.btnPanicShield.setOnClickListener(v -> openPanicShield());
@@ -120,15 +125,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void showResetConfirmationDialog() {
-        new MaterialAlertDialogBuilder(this)
-                .setTitle(R.string.dialog_reset_title)
-                .setMessage(R.string.dialog_reset_message)
-                .setPositiveButton(R.string.btn_confirm_reset, (dialog, which) -> {
-                    viewModel.resetStreak();
-                })
-                .setNegativeButton(R.string.btn_cancel, (dialog, which) -> dialog.dismiss())
-                .show();
+    private void openRelapseReflection() {
+        Intent intent = new Intent(this, RelapseActivity.class);
+        startActivity(intent);
+    }
+
+    private void openAnalytics() {
+        Intent intent = new Intent(this, AnalyticsActivity.class);
+        startActivity(intent);
     }
 
     @Override

@@ -33,6 +33,20 @@
             android:exported="false"
             android:parentActivityName=".MainActivity"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- Post-Relapse Reflection Questionnaire -->
+        <activity
+            android:name=".ui.relapse.RelapseActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Analytics and Danger Zone Heatmap -->
+        <activity
+            android:name=".ui.analytics.AnalyticsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
