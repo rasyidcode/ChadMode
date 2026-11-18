@@ -33,4 +33,13 @@
     <color name="ticker_box_bg">#171920</color>
     <color name="ticker_box_stroke">#282C3A</color>
     <color name="progress_track">#282C3A</color>
+
+    <!-- Emergency & Box Breathing Colors -->
+    <color name="cyan_inhale">#06B6D4</color>
+    <color name="cyan_inhale_glow">#67E8F9</color>
+    <color name="amber_hold">#F59E0B</color>
+    <color name="violet_exhale">#818CF8</color>
+    <color name="violet_exhale_glow">#A5B4FC</color>
+    <color name="breathing_circle_bg">#1A1E2B</color>
+    <color name="breathing_circle_stroke">#2F374E</color>
 </resources>

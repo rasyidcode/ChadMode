@@ -1,5 +1,6 @@
 package com.rasyidcode.chadmode;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -13,6 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.rasyidcode.chadmode.databinding.ActivityMainBinding;
+import com.rasyidcode.chadmode.ui.emergency.PanicActivity;
 import com.rasyidcode.chadmode.ui.main.MainViewModel;
 import com.rasyidcode.chadmode.ui.main.RankInfo;
 import com.rasyidcode.chadmode.ui.main.StreakUiState;
@@ -109,8 +111,13 @@ public class MainActivity extends AppCompatActivity {
         binding.btnResetStreak.setOnClickListener(v -> showResetConfirmationDialog());
 
         // Emergency Panic Shield actions
-        binding.btnPanicShield.setOnClickListener(v -> showPanicShieldDialog());
-        binding.btnQuickShield.setOnClickListener(v -> showPanicShieldDialog());
+        binding.btnPanicShield.setOnClickListener(v -> openPanicShield());
+        binding.btnQuickShield.setOnClickListener(v -> openPanicShield());
+    }
+
+    private void openPanicShield() {
+        Intent intent = new Intent(this, PanicActivity.class);
+        startActivity(intent);
     }
 
     private void showResetConfirmationDialog() {
@@ -121,14 +128,6 @@ public class MainActivity extends AppCompatActivity {
                     viewModel.resetStreak();
                 })
                 .setNegativeButton(R.string.btn_cancel, (dialog, which) -> dialog.dismiss())
-                .show();
-    }
-
-    private void showPanicShieldDialog() {
-        new MaterialAlertDialogBuilder(this)
-                .setTitle(R.string.dialog_panic_title)
-                .setMessage(R.string.dialog_panic_message)
-                .setPositiveButton(R.string.btn_dismiss, (dialog, which) -> dialog.dismiss())
                 .show();
     }
 

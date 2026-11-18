@@ -49,4 +49,39 @@
 
     <string name="rank_day_90_title">Ascended GigaChad</string>
     <string name="rank_day_90_desc">Unshakable self-mastery. Complete neurological transformation.</string>
+
+    <!-- Phase 2: Emergency Panic Shield & Urge Surfing -->
+    <string name="panic_shield_title">🚨 PANIC SHIELD</string>
+    <string name="panic_shield_subtitle">Stop. Breathe. Urges peak and die in 15 minutes.</string>
+    <string name="tab_box_breathing">4-4-4-4 BREATHING</string>
+    <string name="tab_urge_surfer">15-MIN URGE SURFER</string>
+
+    <!-- Box Breathing Labels -->
+    <string name="breath_stage_inhale">INHALE</string>
+    <string name="breath_desc_inhale">Fill lungs completely with calm air</string>
+    <string name="breath_stage_hold_in">HOLD</string>
+    <string name="breath_desc_hold_in">Keep stillness in mind and chest</string>
+    <string name="breath_stage_exhale">EXHALE</string>
+    <string name="breath_desc_exhale">Slowly release tension and cravings</string>
+    <string name="breath_stage_hold_out">REST</string>
+    <string name="breath_desc_hold_out">Empty baseline. Mind reset.</string>
+    <string name="breath_cycle_count">Cycle %1$d</string>
+
+    <!-- Urge Surfer Labels -->
+    <string name="urge_surfer_title">Urge Surfing Wave</string>
+    <string name="urge_phase_1">Wave Rising: Cravings are intensifying. Breathe and observe.</string>
+    <string name="urge_phase_2">The Crest: Peak craving intensity. Do NOT touch, do NOT peek.</string>
+    <string name="urge_phase_3">The Descent: Chemical surge is fading. Control restored.</string>
+    <string name="urge_phase_4">Calm Waters: Craving dismantled. Mind victorious.</string>
+    <string name="urge_completed">Urge Defeated! You chose discipline over regret.</string>
+
+    <!-- Reality Check & Actions -->
+    <string name="header_reality_check">STOIC REALITY CHECK</string>
+    <string name="btn_next_reality_check">Next Reality Check ⚡</string>
+    <string name="btn_survived_urge">🛡️ I Conquered The Urge</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_reset">Reset</string>
+    <string name="congrats_urge_conquered_title">Victory Recorded! 🗿</string>
+    <string name="congrats_urge_conquered_message">You rode the wave without breaking. Every urge you defeat rewires your dopamine receptors towards absolute self-mastery.</string>
 </resources>

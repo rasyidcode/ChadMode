@@ -29,16 +29,16 @@ This roadmap outlines the phased development of **ChadMode**, from initial MVP t
 ## 🛡️ Phase 2: Emergency Panic Shield & Urge Surfing
 > **Goal:** Provide instant, high-friction tools to stop cravings in their tracks when urges spike.
 
-- [ ] **2.1 Emergency Screen / Dialog**
+- [x] **2.1 Emergency Screen / Dialog**
   - Prominent, high-contrast "🚨 PANIC / SHIELD" button on the main dashboard.
   - Fullscreen distraction view that blocks access to the trigger.
-- [ ] **2.2 Urge Surfing 15-Minute Countdown**
+- [x] **2.2 Urge Surfing 15-Minute Countdown**
   - Cravings typically peak and subside within 15–20 minutes.
   - Add a dedicated 15-minute countdown timer with encouraging milestone checkpoints.
-- [ ] **2.3 Interactive Box Breathing (4-4-4-4)**
+- [x] **2.3 Interactive Box Breathing (4-4-4-4)**
   - Custom expanding/contracting circle animation using XML `ValueAnimator`.
   - Guides the user through: Inhale (4s) ➔ Hold (4s) ➔ Exhale (4s) ➔ Hold (4s) to reset the nervous system.
-- [ ] **2.4 Reality-Check Motivational Quotes**
+- [x] **2.4 Reality-Check Motivational Quotes**
   - Rotating pool of aggressive, stoic, and scientific reality-check cards (e.g., *"10 seconds of cheap pleasure isn't worth throwing away 7 days of discipline"*).
 
 ---
